@@ -33,6 +33,10 @@ def save_file():
     # Convert the pixels into an array using numpy
     array = np.array(arr2, dtype=np.uint8)
 
+    # Creating blank image file
+    img = Image.new('RGB', (28, 28), color='black')
+    img.save('privateImage.png')
+
     # Use PIL to create an image from the new array of pixels
     new_image = Image.fromarray(array)
     new_image.save('privateImage.png')
