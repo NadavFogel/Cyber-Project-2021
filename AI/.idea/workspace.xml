@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd6387ac-ca5a-4a88-a1cb-6abbd41b1860" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AI.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SaveAndResize.py" beforeDir="false" afterPath="$PROJECT_DIR$/SaveAndResize.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/privateImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/privateImage.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../result.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../result.txt" afterDir="false" />
-    </list>
+    <list default="true" id="bd6387ac-ca5a-4a88-a1cb-6abbd41b1860" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

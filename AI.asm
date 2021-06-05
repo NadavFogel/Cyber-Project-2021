@@ -281,6 +281,7 @@ noArrowBtn:
 
 sendData: 									; ◄■■ Send data to python
 	
+	mov [SquareSize], 112d					; ◄■■ Moving the size of the drawing frame
 	mov [startX], 91d 						; ◄■■ Moving start X of the drawing frame
 	mov [startY], 31d						; ◄■■ Moving start Y of the drawing frame
 	call PictureToPixels
@@ -603,7 +604,7 @@ proc ReadFile
 endp ReadFile
 
 ; ◄■■► Enter: Result file name & number file name 		     ◄■■►
-; ◄■■► Description: Creates the result file send from python ◄■■►
+; ◄■■► Description: Creates the files 						 ◄■■►
 proc CreateFiles
 	mov ah, 3Ch ; DOS create file
 	mov cx, 0 ; attribute
@@ -621,9 +622,6 @@ endp CreateFiles
 ; ◄■■► Description: Convertes user drawing to an array of pixels  ◄■■►
 proc PictureToPixels
 	
-	mov [SquareSize], 112d
-	mov [startX], 91d
-	mov [startY], 31d
 	
 	; ◄■■ Setting params
 	mov si, 0
