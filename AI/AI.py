@@ -49,6 +49,14 @@ def init_params():
     b1 = np.random.rand(10, 1) - 0.5
     W2 = np.random.rand(10, 10) - 0.5
     b2 = np.random.rand(10, 1) - 0.5
+
+    # To initiate with current parameters
+    '''
+    w1_test = np.loadtxt("W1.txt").reshape(10, 784)
+    w2_test = np.loadtxt("W2.txt").reshape(10, 10)
+    b1_test = np.loadtxt("b1.txt").reshape(10, 1)
+    b2_test = np.loadtxt("b2.txt").reshape(10, 1)
+    '''
     return W1, b1, W2, b2
 
 
