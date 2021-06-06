@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd6387ac-ca5a-4a88-a1cb-6abbd41b1860" name="Default Changelist" comment="" />
+    <list default="true" id="bd6387ac-ca5a-4a88-a1cb-6abbd41b1860" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AI.py" beforeDir="false" afterPath="$PROJECT_DIR$/AI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/privateImage.png" beforeDir="false" afterPath="$PROJECT_DIR$/privateImage.png" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,9 +56,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MakePrediction">
-    <configuration name="Image_resize" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="SnakeAI" />
+  <component name="RunManager" selected="Python.AI">
+    <configuration name="AI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -65,7 +69,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Image_resize.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -75,13 +79,13 @@
       <method v="2" />
     </configuration>
     <configuration name="MakePrediction" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="SnakeAI" />
+      <module name="AI" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="C:\Users\ndfo\Desktop\Project\project\Scripts\python.exe" />
+      <option name="SDK_HOME" value="C:\Users\ndfo\Desktop\Cyber-Project-2021\AI\Packeges\Scripts\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -159,19 +163,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Image_resize" />
       <item itemvalue="Python.MakePrediction" />
       <item itemvalue="Python.Numbers" />
       <item itemvalue="Python.SaveAndResize" />
       <item itemvalue="Python.SaveAndResizeOld" />
+      <item itemvalue="Python.AI" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.AI" />
         <item itemvalue="Python.MakePrediction" />
         <item itemvalue="Python.SaveAndResize" />
         <item itemvalue="Python.Numbers" />
         <item itemvalue="Python.SaveAndResizeOld" />
-        <item itemvalue="Python.Image_resize" />
       </list>
     </recent_temporary>
   </component>

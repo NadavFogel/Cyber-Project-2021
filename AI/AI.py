@@ -156,12 +156,13 @@ def send_prediction(index, W1, b1, W2, b2):
     f.close()
 
     # Display image on screen
-
+    """
     current_image = current_image.reshape((28, 28)) * 255
     # Showing image on screen
     plt.gray()
     plt.imshow(current_image, interpolation='nearest')
     plt.show()
+    """
 
 
 # Loading AI data from saved files
