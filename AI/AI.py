@@ -13,8 +13,11 @@ import cv2
 
 def save_file():
     # Checking if file is not empty
+    printed = 0
     while os.stat("../number.txt").st_size == 0:
-        print("File is empty")
+        if printed == 0:
+            print("File is empty")
+            printed = 1
         time.sleep(0.1)
 
     f = open("../number.txt", "r")  # Reading file
@@ -153,19 +156,19 @@ def send_prediction(index, W1, b1, W2, b2):
     f.close()
 
     # Display image on screen
-    '''
+
     current_image = current_image.reshape((28, 28)) * 255
     # Showing image on screen
     plt.gray()
     plt.imshow(current_image, interpolation='nearest')
     plt.show()
-    '''
+
 
 
 # Loading AI data from saved files
 w1_test = np.loadtxt("W1.txt").reshape(10, 784)
-w2_test = np.loadtxt("W2.txt").reshape(10, 10)
 b1_test = np.loadtxt("b1.txt").reshape(10, 1)
+w2_test = np.loadtxt("W2.txt").reshape(10, 10)
 b2_test = np.loadtxt("b2.txt").reshape(10, 1)
 
 

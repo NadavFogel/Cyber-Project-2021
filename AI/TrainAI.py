@@ -56,8 +56,8 @@ def init_params():
 
     # To initiate with current parameters
     W1 = np.loadtxt("W1.txt").reshape(10, 784)
-    b1 = np.loadtxt("W2.txt").reshape(10, 10)
-    W2 = np.loadtxt("b1.txt").reshape(10, 1)
+    b1 = np.loadtxt("b1.txt").reshape(10, 1)
+    W2 = np.loadtxt("W2.txt").reshape(10, 10)
     b2 = np.loadtxt("b2.txt").reshape(10, 1)
 
     return W1, b1, W2, b2
@@ -220,16 +220,6 @@ def test_max_prediction():
     print(num_of_error)
 
 
-# Train AI with test data and save the result
-def train_AI(learning_rate, iterations):
-    # learning_rate = 0.20
-    # iterations = 1000
-
-    W1, b1, W2, b2 = gradient_descent(X_train, Y_train, learning_rate, iterations)
-    save_data(W1, b1, W2, b2)
-    # Last module accuracy 94.5%
-
-
 # Saving data trained to a text file
 def save_data(W1, b1, W2, b2):
 
@@ -249,9 +239,25 @@ def save_data(W1, b1, W2, b2):
     file.close()
 
     file = open("b2.txt", "w")
-    for row in b1:
+    for row in b2:
         np.savetxt(file, row)
     file.close()
+
+
+# Train AI with test data and save the result
+def train_AI(learning_rate, iterations):
+    # learning_rate = 0.20
+    # iterations = 1000
+
+    W1, b1, W2, b2 = gradient_descent(X_train, Y_train, learning_rate, iterations)
+    save_data(W1, b1, W2, b2)
+    # Last module accuracy 94.5%
+
+
+train_AI(0.1, 100)
+
+
+
 
 
 
