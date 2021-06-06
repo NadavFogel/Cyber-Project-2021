@@ -164,7 +164,6 @@ def send_prediction(index, W1, b1, W2, b2):
     plt.show()
 
 
-
 # Loading AI data from saved files
 w1_test = np.loadtxt("W1.txt").reshape(10, 784)
 b1_test = np.loadtxt("b1.txt").reshape(10, 1)
