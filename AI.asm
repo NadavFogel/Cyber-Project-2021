@@ -16,7 +16,7 @@ DATASEG
 	;◄■■► Crosshair ◄■■►
 	crosshairX dw ?
 	crosshairY dw ?
-	crosshairSize dw 2
+	crosshairSize dw 3
 	
 	
 	;◄■■► Text files & handles ◄■■►
